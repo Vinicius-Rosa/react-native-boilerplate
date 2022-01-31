@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Central Saúde",
-    "slug": "central-saude-app",
+    "name": "React Native Boilerplate",
+    "slug": "react-native-boilerplate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/icon.png",
@@ -24,7 +24,7 @@
         "foregroundImage": "./src/assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.centralsaude"
+      "package": "com.reactnativeboilerplate"
     },
     "web": {
       "favicon": "./src/assets/favicon.png"

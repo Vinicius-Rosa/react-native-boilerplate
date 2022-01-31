@@ -2,7 +2,7 @@
   "packagerPort": 19000,
   "packagerPid": null,
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
+  "expoServerPort": null,
   "expoServerNgrokUrl": "https://au-k7q.oviniciusrosa.react-native-boilerplate.exp.direct",
   "packagerNgrokUrl": "https://packager.au-k7q.oviniciusrosa.react-native-boilerplate.exp.direct",
   "ngrokPid": 25744,
