@@ -5,11 +5,17 @@ import { NavigationContainer } from "@react-navigation/native";
 
 import Navigation from "./src/navigation";
 
+import { Provider } from "react-redux";
+
+import { store } from "src/app/store";
+
 export default function App() {
   return (
-    <NavigationContainer>
-      <StatusBar style="auto" />
-      <Navigation />
-    </NavigationContainer>
+    <Provider store={store}>
+      <NavigationContainer>
+        <StatusBar style="auto" />
+        <Navigation />
+      </NavigationContainer>
+    </Provider>
   );
 }
